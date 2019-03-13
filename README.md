@@ -312,7 +312,7 @@ Copy the values of **url**, **username**, **password**, and **instance_id** into
 
 You are now ready to run the file and let you model score an image! Using whatever tool you want to run the evaluate.py file. You should get a printout looking like this if your model if your model correctly identified the model as fraudulent:
 
-![](images/53.png)
+![](images/54.png)
 
 Or this, if your model did not identify it as fraudulent:
 
