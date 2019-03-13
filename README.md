@@ -269,13 +269,15 @@ Your model is now ready to score images via API calls!
 
 ### Calling your model using the Watson Machine Learning Python SDK
 
-**IMPORTANT: If you were unable to install the Watson Machine Learning Python SDK, skip this step**
+Now it is time to calling your model's API and letting it score an image of a fraudulent signature! The signature we will score is this one:
 
-Now it is time to calling your model's API and letting it score an image of a signature! The signature we will score is this one:
+![](images/G003.png)
+
+But the actual image we send to the model looks like this:
 
 ![](images/sig0.png)
 
-The reason that it is blurred like it is, is that it has to be normalized before it can be scored by the neural network model.
+The reason that it is blurred like it is, is that it has to be converted to 32x32 pixels grayscale before it can be scored by the neural network model.
 
 First, examine the python file that was included in the zipped assets by opening **evaluate.py** using your favorite text editor. This file contains (almost) everything needed to call your model\'s API:
 
@@ -308,11 +310,13 @@ Copy the values of **url**, **username**, **password**, and **instance_id** into
 
 ![](images/51.png)
 
-You are now ready to run the file and let you model score an image! Using whatever tool you want to run the evaluate.py file. You should get a printout looking like this:
+You are now ready to run the file and let you model score an image! Using whatever tool you want to run the evaluate.py file. You should get a printout looking like this if your model if your model correctly identified the model as fraudulent:
+
+![](images/53.png)
+
+Or this, if your model did not identify it as fraudulent:
 
 ![](images/52.png)
-
-### Scoring an image using the
 
 
 ### Summary
