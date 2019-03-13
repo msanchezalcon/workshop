@@ -308,9 +308,11 @@ Copy the values of **url**, **username**, **password**, and **instance_id** into
 
 ![](images/51.png)
 
-You are now ready to run the file and let you model score an image! Using whatever tool you want, run the evaluate.py file. You should get a printout looking like this:
+You are now ready to run the file and let you model score an image! Using whatever tool you want to run the evaluate.py file. You should get a printout looking like this:
 
 ![](images/52.png)
+
+### Scoring an image using the
 
 
 ### Summary
