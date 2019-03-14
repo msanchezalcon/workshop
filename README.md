@@ -271,10 +271,6 @@ Your model is now ready to score images via API calls!
 
 Now it is time to calling your model's API and letting it score an image of a fraudulent signature! The signature we will score is this one:
 
-![](images/G003.png)
-
-But the actual image we send to the model looks like this:
-
 ![](images/sig0.png)
 
 The reason that it is blurred like it is, is that it has to be converted to 32x32 pixels grayscale before it can be scored by the neural network model.
