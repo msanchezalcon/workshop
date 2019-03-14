@@ -269,7 +269,7 @@ Your model is now ready to score images via API calls!
 
 ### Calling your model using the Watson Machine Learning Python SDK
 
-Now it is time to calling your model's API and letting it score an image of a fraudulent signature! The signature we will score is this one:
+Now it is time to call your model's API and letting it score an image of a fraudulent signature! The signature we will score is this one:
 
 ![](images/sig0.png)
 
