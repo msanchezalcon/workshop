@@ -16,7 +16,7 @@ If you have completed the preparation guide, you should have done the following:
   - Provisioned a Watson Studio service instance
   - Installed the Watson Machine Learning Python SDK
 
-If you have not, follow this [link](https://ibm.box.com/s/d6r4eoyzl2vtc6tn96cmo83b5mbw5a50) and complete the steps therein before continuing with the workshop.
+If you have not, follow this [link](prep/prep.pdf) and complete the steps therein before continuing with the workshop.
 
 ### Upload the dataset to IBM Cloud Object Storage
 Before we start building our neural network, we will need to upload files containing training, validation, and test data to our **Cloud Object Storage instance**. First, you need to download the **assets.zip** folder from this repository to somewhere you can find it easily. Next, unzip the assets folder, and make sure you can locate three different data files: **training_data.pickle**,  **validation_data.pickle** and **test_data.pickle**. The .zip-file also contains two other files; **evaluation_data.pickle** and **evaluate.py**. These two are used in the final step of this workshop where we want to score an image by calling the API of a model we have deployed.
